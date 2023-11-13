@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    padding: 1rem;
+}
+.selection{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.main{
+    background-color: aqua;
+
+}
+label{
+    font-weight: bolder;
+    padding-left: 1rem;
+}
+p{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+button{
+    margin-left: 1rem;
+    color: red;
+    background-color:black;
+    width: 150px;
+    border-radius: 10px;
+}

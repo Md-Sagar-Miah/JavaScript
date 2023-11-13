@@ -1,0 +1,28 @@
+.container{
+    height: 100vh;
+    background-color: rgb(255, 148, 98);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.items{
+    text-align: center;
+    
+    
+
+}
+.item{
+    
+    color: rgb(76, 248, 176);
+    position: absolute;
+    transform: translate(-50%,30%) scale(0);
+    transition: 2s;
+}
+.item i,h2{
+    text-align: center;
+    font-size: 8rem;
+    
+}
+.item.current{
+    transform: translate(-50%,30%) scale(1);
+}
